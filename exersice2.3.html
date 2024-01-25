@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание2.3</title>
+    <style>
+        table{
+            margin: 0 auto;
+        }
+        td:first-child{
+            text-align: right;
+        }
+        .scroll-pane{
+            overflow-y: scroll;
+            width: 400px;
+            height: 50px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        ЗАО Птицефабрика №1
+    </h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    Фамилия
+                </td>
+                <td colspan="3">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Инициалы
+                </td>
+                <td colspan="3">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Пароль
+                </td>
+                <td colspan="3">
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Адрес получателя
+                </td>
+                <td colspan="3">
+                    <input type="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Количество
+                </td>
+                <td colspan="3">
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Тип
+                </td>
+                <td>
+                    <select name="">
+                        <option value="">Куриные</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="">
+                        <option value="">Отборные</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Доставка
+                </td>
+                <td>
+                    <input type="radio" name="Доставка"> Почтой
+                </td>
+                <td>
+                    <input type="radio" name="Доставка"> Электронно
+                </td>
+                <td>
+                    <input type="radio" name="Доставка"> Курьером
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Требуеться накладная
+                </td>
+                <td>
+                    <input type="checkbox" name="Требуеться-накладная">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Дополнительная информация
+                </td>
+                <td colspan="3">
+                    <textarea name="" class="scroll-pane"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Заказать</button>
+                </td>
+                <td>
+                    <button>Отменить</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <form action="">
+        <p style="font-size: 24pt; margin: 0;">
+            Пример формы регистрации сайта
+        </p>
+        <label for="Login">Логин:</label> <br>
+        <input type="text" id="Login"> <br>
+        <label for="Password">Пароль:</label> <br>
+        <input type="password" id="Password"> <br>
+        <label for="URL">URL-адрес сайта:</label> <br>
+        <input type="url" name="" id="URL"> <br>
+        <label for="">Описание сайта:</label> <br>
+        <textarea name="" id="" cols="82" rows="10"></textarea> <br>
+        <label for="ThemeSite">Тема сайта</label> <br>
+        <select name="" id="">
+            <option value="">Тема не выбрана</option>
+        </select> <br>
+        <label for="SelectFile">Баннер 88*31:</label> <br>
+        <input type="file" name="" id="SelectFile"> <br> <br>
+        <button>Очистить</button>
+        <button>Отправить</button>
+    </form>
+</body>
+</html>
