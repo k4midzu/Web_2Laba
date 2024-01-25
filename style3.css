@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+h1 span{
+    letter-spacing: 5px;
+}
+table{
+    margin: 0 auto;
+}
+#Two{
+    text-indent: 30px;
+}
+.second-paragraph{
+    background-color: yellow;
+    text-decoration: underline;
+}
+.tableTwo{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tableTwo th{
+    border-style: double;
+}
+.tableTwo td{
+    border-style: double;
+}

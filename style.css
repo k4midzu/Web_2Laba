@@ -1,0 +1,60 @@
+body{
+    font-size: 24px;
+}
+.aboutTheStudent{
+    position: relative;
+}
+.aboutTheStudent p{
+    display: inline-block;
+    position: absolute;
+    margin: 30px;
+}
+
+.aboutTheStudent #photoStudent{
+    width: 200px;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+h2{
+    text-align: center;
+}
+.aboutNVSU{
+    text-align: justify;
+}
+.picturesNVSU{
+    width: 50%;
+    float: right;
+    border: 3px solid blue;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    height: 50%;
+}
+table td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tableTwo td{
+    padding: 50px;
+}
+.BGColorOne{
+    background-color: #00ffc9;
+}
+.BGColorTwo{
+    background-color: #ffffcd;
+}
+.BGColorThree{
+    background-color: #fe0000;
+}
+.BGColorFour{
+    background-color: #0000fe;
+}
+.BGColorFive{
+    background-color: #00ff01;
+}
+.BGColorSix{
+    background-color: #ffff00;
+}
